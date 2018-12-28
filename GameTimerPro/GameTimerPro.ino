@@ -15,7 +15,7 @@
 byte leds[] = {LED1, LED2, LED3, LED4}; //*********// These are LEDs on the control board itself
 int volume = 255;
 
-Adafruit_NeoPixel strip = Adafruit_NeoPixel(14, 7); //********// (14 NeoPixels, Controlled through PIN7)
+Adafruit_NeoPixel strip = Adafruit_NeoPixel(14, NEOPIXEL_PIN); //********// (14 NeoPixels, Controlled through PIN7)
 
 Config config = Config();
 Display display = Display();
